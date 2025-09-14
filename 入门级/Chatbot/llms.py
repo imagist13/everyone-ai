@@ -12,9 +12,9 @@ logger = logging.getLogger(__name__)
 # 模型配置字典
 MODEL_CONFIGS = {
     "openai": {
-        "base_url": "https://yunwu.ai/v1",
+        "base_url": "https://api.deepseek.com",
         "api_key": "your_api_key",
-        "model": "gpt-4o-mini"
+        "model": "deepseek-chat"
     },
     "oneapi": {
         "base_url": "http://139.224.72.218:3000/v1",
