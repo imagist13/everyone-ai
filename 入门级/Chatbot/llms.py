@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 MODEL_CONFIGS = {
     "openai": {
         "base_url": "https://api.deepseek.com",
-        "api_key": "your_api_key",
+        "api_key": "",
         "model": "deepseek-chat"
     },
     "oneapi": {
