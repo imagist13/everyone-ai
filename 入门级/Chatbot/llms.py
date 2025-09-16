@@ -40,7 +40,11 @@ DEFAULT_TEMPERATURE = 0.7
 
 
 class LLMInitializationError(Exception):
-    """自定义异常类用于LLM初始化错误"""
+    """当大语言模型(LLM)初始化过程中出现错误时抛出的自定义异常类。
+    
+    这个异常类用于处理在尝试初始化或配置大语言模型时可能发生的特定错误，
+    例如API密钥无效、模型名称不正确或网络连接问题等。
+    """
     pass
 
 
